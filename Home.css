@@ -149,4 +149,20 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
   }
   .lastimg img{
       border-bottom-right-radius: 20%;
-  }    
+  }
+  .Game{
+    display: -webkit-inline-box;
+    }
+    .grid-container{
+    margin-left: 75px;
+    background-color: rgba(201, 201, 201, 0.616);
+    margin-top: 50px;
+    width: 210px;
+    border-style                :   solid;
+    border-width                :   8px;
+    border-color                :   #3c7bf14d;
+    border-radius               :   3px;
+    text-decoration: none;
+    
+    }
+      
