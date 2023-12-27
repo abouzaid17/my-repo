@@ -98,4 +98,38 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
    .prev:hover,
    .next:hover {
      background-color: rgba(0, 0, 0, 0.8);
-   }    
+   }
+    /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+   
+    padding: 2px 16px;
+    color: #ff80ff;
+    line-height: 2rem;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: right;
+    width: 65%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }    
