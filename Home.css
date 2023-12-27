@@ -132,4 +132,21 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
   /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .mySlides img{
+      width: 800px;
+      height: 480px;
+      border-bottom-left-radius: 6%;
+        border-top-left-radius: 6%;
+  }
+  .firstimg img{
+      border-top-right-radius: 20%;
+  }
+  .lastimg img{
+      border-bottom-right-radius: 20%;
   }    
