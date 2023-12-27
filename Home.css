@@ -61,3 +61,14 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
     grid-template-columns: 60% 15% 25%;
     margin: 70px;
   }  
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+        
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+      
