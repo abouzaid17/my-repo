@@ -54,4 +54,10 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
 * {
     box-sizing: border-box;
   }
-   
+ /* Position the image container (needed to position the left and right arrows) */
+ .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 15% 25%;
+    margin: 70px;
+  }  
