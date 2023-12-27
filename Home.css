@@ -169,4 +169,28 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
       color:rgb(243, 93, 223);
       text-decoration: none;
     }    
-    
+
+      /* .icon{
+padding-top: 30%;
+    }*/
+    button{
+        margin-left: 11%;
+        display: inline;
+        position: absolute;
+        }
+        #b2{
+          margin-left: 19%;
+          margin-bottom: 30%;
+          display: inline;
+        }
+        #b3{
+          margin-left: 20%;
+          margin-bottom: 2%;
+          display: inline;
+         
+        }
+        #b4{
+          margin-left: 19%;
+          display: inline;
+          
+        }
