@@ -8,3 +8,9 @@
   margin-top: 10%;
   
   }
+  body{
+	background-color: black;
+	background-image: url("../Pic/Wallpaper.jpg");
+	background-attachment: fixed;
+
+}
