@@ -43,3 +43,33 @@ background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
 	color: black;
 	
 }
+.Game{
+    display: -webkit-inline-box;
+    }
+    .grid-container{
+    margin-left: 75px;
+    background-color: rgba(201, 201, 201, 0.616);
+    margin-top: 50px;
+    width: 195px;
+    border-style                :   solid;
+    border-width                :   8px;
+    border-color                :   #3c7bf14d;
+    border-radius               :   3px;
+    
+    }
+    
+    .grid-container .Name {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(44, 5, 107);
+    }
+    .grid-container .Name:hover{
+        color:rgb(159, 39, 163);
+    }
+    .grid-container .Price{
+        font-weight:bold;
+        text-align: center;
+    }
+    a:hover{
+        color:rgb(243, 93, 223);
+    }
