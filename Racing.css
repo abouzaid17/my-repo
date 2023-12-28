@@ -17,3 +17,28 @@ h1{
 	margin-top: 3px;
 	margin-bottom: 3px;
 }	
+.menu{
+	font-size: x-large;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(233, 83, 238, 0.486);
+	position: sticky;
+	top: 0;
+	
+word-spacing: 50px;
+background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
+}
+.menu a{
+	text-decoration: none;
+	-webkit-text-stroke: 0.2px rgb(44, 5, 107);
+	text-align: center;
+	padding: 30px;
+	font-family: fantasy;
+}
+.menu a:hover{color: rgb(72, 132, 243); }
+.menu .Home:hover{color: rgb(211, 81, 180); }
+.menu .Home {
+	font-size: xx-large;
+	color: black;
+	
+}
